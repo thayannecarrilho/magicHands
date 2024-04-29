@@ -1,0 +1,54 @@
+<nav class="navbar second">
+  <div class="nav-itens">
+    <a href="/services">Serviços</a>
+    <a href="/consultar">Consultar Agendamento</a>
+  </div>
+</nav>
+<div id="agendar">
+    <h4>Agende sua sessão aqui!</h4>
+
+<form action="/client/insert" method="POST">
+<details>
+    <summary><i class="bi bi-arrow-down-circle-fill"></i> Preencha seus dados</summary>
+    <div class="row">
+  <div class="col-md-5">
+    <label for="nome" class="form-label">Nome: </label>
+    <input type="text" name="nome" class="form-control">
+  </div>
+    <div class="col-3">
+    <label for="cpf" class="form-label">CPF: </label>
+    <input type="text" name="cpf" class="form-control">
+  </div>
+  <div class="col-4">
+    <label for="email" class="form-label">E-mail: </label>
+    <input type="text" name="email" class="form-control">
+  </div>
+  </div>
+  </details>
+  <details>
+    <summary><i class="bi bi-arrow-down-circle-fill"></i> Ficha de Anamnese</summary>
+    <div class="row"></div>
+  </details>
+  <details>
+    <summary><i class="bi bi-arrow-down-circle-fill"></i> Agendar</summary>
+    <div class="row">
+    <div class="col-3">
+    <input class="form-check-input" type="radio" name="drenagem">
+    <label class="form-check-label" for="drenagem">Drenagem Linfática</label>
+    </div>
+    <div class="col-3">
+    <input class="form-check-input" type="radio" name="massagem">
+    <label class="form-check-label" for="massagem">Massagem Modeladora</label>
+    </div>
+    <div class="col-3">
+    <input class="form-check-input" type="radio" name="desportiva">
+    <label class="form-check-label" for="desportiva">Massagem Desportiva</label>
+    </div>
+    <div class="col-3">
+    <input class="form-check-input" type="radio" name="relaxante">
+    <label class="form-check-label" for="relaxante">Massagem Relaxante</label>
+    </div>
+    </div>
+  </details>
+  <input type="submit" class="btn" value="Enviar">
+</form>
