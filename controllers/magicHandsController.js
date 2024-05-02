@@ -4,7 +4,7 @@ const { Op } = require('sequelize')
 
 module.exports = class magicHandsController {
     static showMagic(req, res) {
-        res.render('home')
+        res.render('registerstaff')
     }
 }
 
