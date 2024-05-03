@@ -155,8 +155,17 @@
 
 /*AGENDAR*/
 #agendar{
-    margin: 2rem;
+    margin: 5rem 2rem;
     text-align: center;
+}
+#agendar h4,
+#agendar h6{
+    overflow: hidden;
+}
+#agendar a{
+    font-weight: bold;
+    color: #7c0806;
+    text-decoration: none;
 }
 #agendar .row{
     margin: 1rem;
@@ -190,6 +199,9 @@
     background-color: #c41512;
     color: #fff;
 }
+#margin{
+    margin: 0rem 5rem;
+}
 
 
 /*LOGIN STAFF E REGISTER*/
@@ -207,13 +219,11 @@
     background: linear-gradient(45deg,#eca2a0, #fff);
     padding: 2rem;
     border-radius: 1rem;
-    font-weight: bold;
 }
 .card-form .btn{
     background-color: #7c0806;
     color: #fff;
     transition: 1s;
-    margin-bottom: 1rem;
 }
 .card-form .btn:hover{
     background-color: #c41512;
