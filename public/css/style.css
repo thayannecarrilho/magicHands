@@ -213,6 +213,14 @@
     align-items: center;
     height: 90vh;
 }
+#margin{
+    height: auto;
+}
+
+
+.auth-container h5{
+    overflow: hidden;
+}
 
 .auth-container .col input{
     width: 15rem;
@@ -221,6 +229,7 @@
     background: linear-gradient(45deg,#eca2a0, #fff);
     padding: 2rem;
     border-radius: 1rem;
+    overflow: hidden;
 }
 .card-form .btn{
     background-color: #7c0806;
