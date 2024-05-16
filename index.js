@@ -5,6 +5,7 @@ const FileStore = require("session-file-store")(session);
 const flash = require("express-flash");
 const app = express();
 const conn = require("./db/conn");
+const moment = require('moment')
 
 // ROUTES E CONTROLLERS
 const magicHandsRoutes = require("./routes/magicHandsRoutes");
@@ -12,7 +13,15 @@ const authRoutes = require("./routes/authRoutes");
 const magicHandsController = require("./controllers/magicHandsController");
 
 // HANDLEBARS
-app.engine("handlebars", exphbs.engine());
+app.engine("handlebars", exphbs.engine({
+  defaultLayout: 'main',
+  helpers: {
+    formatDate: (date) => {
+      return moment(date).format("DD/MM/YYYY")
+    }
+  }  
+}))
+
 app.set("view engine", "handlebars");
 app.use(
   express.urlencoded({

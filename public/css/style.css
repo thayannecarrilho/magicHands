@@ -116,6 +116,7 @@
 #services{
     margin: 3rem 2rem 0 2rem;
 }
+.auth-container h4,
 #services h4{
     overflow: hidden;
 }
@@ -212,6 +213,7 @@
     align-items: center;
     height: 90vh;
 }
+
 .auth-container .col input{
     width: 15rem;
 }

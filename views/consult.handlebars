@@ -1,0 +1,27 @@
+<div class="container-banner">
+  <nav class="navbar second">
+    <div class="nav-itens">
+      <a href="/services">Serviços</a>
+      <a href="/client">Agendar</a>
+      <a href="/contato">Contato</a>
+      <a href="/login">Login Staff</a>
+    </div>
+  </nav>
+<div class="auth-container">
+    <h4 class="mb-4">Consulte seu agendamento aqui!</h4>
+    <form class="card-form" action="/search/:cpf" method="POST">
+    <div class="col mb-4">
+      <label class="form-label text-justify" for="cpf">Digite seu cpf:</label>
+      <input
+        class="form-control"
+        type="cpf"
+        name="cpf"
+      />
+      </div>
+      <div class="col mb-2">
+        <input type="submit" value="Consultar" class="btn" />
+      </div>
+    </div>
+    </form>
+</div>
+</div>
