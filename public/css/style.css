@@ -331,16 +331,17 @@
         gap: 1rem;
     }
     .menu a{
-        color: #7c0806;
+        color: #111;
+        font-weight: bolder;
         text-decoration: none;
         padding: 0.3rem;
-        border-bottom: 1px solid #7c0806;
+        border-bottom: 1px solid #111;
         animation: moveright 1s;
     }
     .menu a:hover{
-        color:#c79434;
+        color:#7c0806;
         text-decoration: none;
-        border-bottom: 1px solid #c79434;
+        border-bottom: 1px solid #7c0806;
     }
     .auth-container{
         justify-content: start;
