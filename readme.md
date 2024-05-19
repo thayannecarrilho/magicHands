@@ -10,7 +10,7 @@
 
 ```bash
 1. Clone o repositório
-  $ gitclone <https://github.com/thayannecarrilho/Locadora.git>
+  $ gitclone <https://github.com/thayannecarrilho/magicHands.git>
 
 2. Acesse a pasta no terminal integrado e instale as dependências
   $ npm upgrade
@@ -19,7 +19,7 @@
   $ npm start
 
 4. Execute no navegador
-  localhost:4000
+  localhost:7000
 
 ```
 ### 🛠️Tecnologias
