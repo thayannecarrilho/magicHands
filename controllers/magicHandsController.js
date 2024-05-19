@@ -82,10 +82,6 @@ module.exports = class magicHandsController {
         .catch((err) => console.log())
     }
 
-    static showConsultar(req, res) {
-        res.render('consult')
-    }     
-
     static showContato(req, res) {
         res.render('contact')
     }
