@@ -18,7 +18,11 @@
 3. Execute a aplicação em modo de desenvolvimento
   $ npm start
 
-4. Execute no navegador
+4. Na pasta db no arquivo conn.js substitua "root" pelo usuário do Workbench e "thayanne" pela sua senha.
+
+5. Crie um banco de dados chamado "magichands"
+
+6. Execute no navegador 
   localhost:7000
 
 ```
