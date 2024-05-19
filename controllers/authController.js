@@ -64,8 +64,8 @@ module.exports = class StaffController {
       .catch((err) => console.log(err))
   }  
 
-//   static logout(req, res) {
-//     req.session.destroy()
-//     res.redirect('/login')
-//   }
+  static logout(req, res) {
+    req.session.destroy()
+    res.redirect('/login')
+  }
 }

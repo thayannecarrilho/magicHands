@@ -1,3 +1,10 @@
+<div class="menu">
+      <div class="colunm">
+    <a href="/homestaff">Voltar</a>
+    <a href="/logout">Sair</a>
+    </div>
+    </div>    
+    <img class="sandbar" src="/img/menu.png"/>  
 <nav class="navbar second">
   <div class="nav-itens">    
     <a href="/homestaff">Voltar</a>
@@ -7,11 +14,11 @@
 <div class="auth-container" id="margin">
   <form class="card-form" action="/updateagenda" method="POST">       
     <div class="row">
-       <div class="col-4 mb-2">
+       <div class="col-md-4 mb-2">
         <label class="form-label" for="cpf">Digite seu cpf: </label>
         <input class="form-control" name="cpf" type="text" value="{{tblagenda.cpf}}">
         </div>
-       <div class="col-4 mb-2">
+       <div class="col-md-4 mb-2">
         <label for="procedimento" class="form-label"> Escolha seu procedimento: </label>
         <select name="procedimento" class="form-select">
           <option value="">{{tblagenda.procedimento}}</option>
@@ -21,7 +28,7 @@
           <option value="Massagem Relaxante">Massagem Relaxante</option>
         </select>
       </div>
-      <div class="col-4 mb-2">
+      <div class="col-md-4 mb-2">
         <label for="profissional" class="form-label"> Escolha o profissional: </label>
         <select name="profissional" class="form-select">
           <option value="">{{tblagenda.profissional}}</option>
@@ -31,11 +38,11 @@
           <option value="Bruna">Bruna</option>
         </select>
       </div>
-      <div class="col-6 mb-2">
+      <div class="col-md-6 mb-2">
         <label for="data" class="form-label"> Data: </label>
         <input class="form-control" type="date" name="data" value="{{tblagenda.data}}">
       </div>
-       <div class="col-6 mb-4">
+       <div class="col-md-6 mb-4">
         <label for="horario" class="form-label"> Horário: </label>
         <input class="form-control" type="time" name="horario" value="{{tblagenda.horario}}">
       </div>

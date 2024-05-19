@@ -3,6 +3,7 @@ const exphbs = require("express-handlebars");
 const session = require("express-session");
 const FileStore = require("session-file-store")(session);
 const flash = require("express-flash");
+const bodyParser = require('body-parser')
 const app = express();
 const conn = require("./db/conn");
 const moment = require('moment')

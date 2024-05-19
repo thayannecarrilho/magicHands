@@ -1,3 +1,11 @@
+<div class="menu">
+      <div class="colunm">
+      <a href="/services">Serviços</a>
+    <a href="/consultar">Consultar Agendamento</a>
+    <a href="/contato">Contato</a>
+    </div>
+    </div>    
+    <img class="sandbar" src="/img/menu.png"/> 
 <nav class="navbar second">
   <div class="nav-itens">
     <a href="/services">Serviços</a>
@@ -8,11 +16,11 @@
 <div class="auth-container" id="margin">
   <form class="card-form" action="/agenda/insert" method="POST">       
     <div class="row">
-       <div class="col-4 mb-2">
+       <div class="col-md-4 mb-2">
         <label class="form-label" for="cpf">Digite seu cpf: </label>
         <input class="form-control" name="cpf" type="text">
         </div>
-       <div class="col-4 mb-2">
+       <div class="col-md-4 mb-2">
         <label for="procedimento" class="form-label"> Escolha seu procedimento: </label>
         <select name="procedimento" class="form-select">
           <option value=""></option>
@@ -22,7 +30,7 @@
           <option value="Massagem Relaxante">Massagem Relaxante</option>
         </select>
       </div>
-      <div class="col-4 mb-2">
+      <div class="col-md-4 mb-2">
         <label for="profissional" class="form-label"> Escolha o profissional: </label>
         <select name="profissional" class="form-select">
           <option value=""></option>
@@ -32,11 +40,11 @@
           <option value="Bruna">Bruna</option>
         </select>
       </div>
-      <div class="col-6 mb-2">
+      <div class="col-md-6 mb-2">
         <label for="data" class="form-label"> Data: </label>
         <input class="form-control" type="date" name="data">
       </div>
-       <div class="col-6 mb-4">
+       <div class="col-md-6 mb-4">
         <label for="horario" class="form-label"> Horário: </label>
         <input class="form-control" type="time" name="horario">
       </div>
