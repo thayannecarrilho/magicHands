@@ -18,7 +18,7 @@
 3. Execute a aplicação em modo de desenvolvimento
   $ npm start
 
-4. Na pasta db no arquivo conn.js substitua "root" pelo usuário do Workbench e "thayanne" pela sua senha.
+4. Na pasta db no arquivo conn.js substitua "root" pelo usuário do Workbench e "thayanne" pela sua senha
 
 5. Crie um banco de dados chamado "magichands"
 
@@ -33,6 +33,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 ><code><img height="20" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png" alt="CSS"> CSS</code>
 ><code><img height="15" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png" alt="Nodejs"/> NodeJS</code>
 ><code><img height="15" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/bootstrap/bootstrap.png" alt="bootstrap"/> Bootstrap</code>
+><code><img height="15" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mysql/mysql.png" alt="Mysql"> MySQL</code>
 
 ### 👀Veja a interface do projeto responsiva:
 <img width="1100" src="/public/img-readme/responsively.gif"> </br>
